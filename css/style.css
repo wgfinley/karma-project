@@ -428,3 +428,29 @@ th {
 
 /**End Normalize
 */
+
+.top-navigation {
+	font-family: "Helvetica", "Helvetica Neue", sans-serif;
+	}
+
+.top-navigation ul {
+	margin: 2em 15em 0 0;
+	float: right;
+}	
+
+.top-navigation ul li {
+	display: inline-block;
+	text-decoration: none;
+	padding: .2em 1em;
+	color: #838994;
+	}
+	
+.top-navigation ul li.active {
+	color: #4c5058;
+	font-weight: 500;
+}
+
+.top-navigation .logo {
+	float:left;
+	margin: 1em 0 0 15em;
+}
