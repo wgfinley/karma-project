@@ -442,6 +442,9 @@ th {
 
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 	
 .top-navigation > .content {
@@ -474,8 +477,8 @@ th {
 	transition: color 0.5s ease;
 	color: #333333;
 	cursor: pointer;
-	cursor: hand;
 }
+
 .top-navigation .links > .active {
 	color: #4c5058;
 	font-weight: 500;
@@ -532,3 +535,48 @@ a {
 	 border-color: #cf3d0c;
 	 cursor: pointer;
  }
+ 
+ .cases {
+	 background-color: #fff;
+	 overflow: hidden;
+	 padding-bottom: 5rem;
+	 margin: 0 17.5rem;
+ }
+ .cases .content {
+	 margin-top: 7.875rem;
+	 color: black;
+	 text-align: center;
+	 font-family: 'Roboto', sans-serif;
+	 padding: none;
+}
+ 
+ .cases h2 {
+	 font-size: 2.75rem;
+	 font-weight: 300;
+	 margin: 1.625rem 0 3.125rem;
+ }
+ 
+ .cases .devices > li {
+	 width: 33.333333%;
+	 float: left;
+}
+ 
+ .cases .devices h3 {
+	 font-weight: 400;
+	 font-size: 1.563rem;
+	 margin: 2.5rem 0px 1.875rem;
+}
+
+.cases ul {
+	list-style: none;
+}
+
+.cases .caption {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
