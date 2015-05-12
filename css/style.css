@@ -485,3 +485,34 @@ a {
 	text-decoration: none;
 	color: inherit;
 }
+
+.intro {
+	background-image: url('../img/first-background%20copy.jpg');
+	background-position: center bottom;
+	background-repeat:no-repeat;
+	background-size: cover;
+	heigth: 50rem;
+	overflow: auto;
+	color: white;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.intro h1 {
+	font-size: 50px;
+	font-weight: 100;
+}
+
+.intro h3 {
+	font-size: 25px;
+	font-weight: 100;
+}
+
+button {
+	border-radius: 25px;
+    background-color: #f15a29;
+    padding: 1rem 1.5rem; 
+    width: 10rem;
+    color: white; 
+}
