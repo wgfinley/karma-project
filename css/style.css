@@ -489,10 +489,13 @@ a {
 .intro {
 	background-image: url('../img/first-background%20copy.jpg');
 	background-position: center bottom;
-	background-repeat:no-repeat;
+	background-repeat: no-repeat;
 	background-size: cover;
-	heigth: 50rem;
+	height: 45.938rem;
 	overflow: auto;
+}
+
+.intro .content {	
 	color: white;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
@@ -502,6 +505,7 @@ a {
 .intro h1 {
 	font-size: 50px;
 	font-weight: 100;
+	margin-top: 17.5rem;
 }
 
 .intro h3 {
@@ -509,10 +513,22 @@ a {
 	font-weight: 100;
 }
 
-button {
-	border-radius: 25px;
-    background-color: #f15a29;
+.big-button {
+	background-color: #f15a29;
+	border-color: #f15a29;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
     padding: 1rem 1.5rem; 
-    width: 10rem;
-    color: white; 
-}
+ 	line-height: 1.33;
+ 	font-size: 1.125rem;
+ 	display: inline-block;
+ 	margin: 10px 0;
+ 	font-weight: 100;
+ }
+ 
+ button:hover {
+	 background-color: #d9400e;
+	 border-color: #cf3d0c;
+	 cursor: pointer;
+ }
